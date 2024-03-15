@@ -1,0 +1,185 @@
+body {
+  scroll-behavior: smooth;
+  margin: 0 10%;
+  background: url("assets/asset-background.webp") right top no-repeat,
+    linear-gradient(
+      to bottom,
+      #283345 0%,
+      #283345 44%,
+      #3871ff 44%,
+      #3871ff 65%,
+      white 65%,
+      white 85%,
+      #283345 85%,
+      #283345 100%
+    );
+  background-size: 610px, auto;
+}
+
+a,
+button {
+  color: white;
+  font-weight: 600;
+}
+
+a:hover,
+button:hover {
+  opacity: 0.5;
+}
+
+.nav-no-active {
+  color: #9399a2;
+  font-weight: 600;
+}
+
+.nav-no-active:hover {
+  color: #4e5052;
+}
+
+.main-text {
+  margin-top: 11.5rem;
+  margin-bottom: 15rem;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+  font-weight: bold;
+}
+
+p {
+  color: #9399a2;
+  font-weight: 600;
+}
+
+.service-text {
+  margin: 0 14rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  width: 25rem;
+}
+
+.card-text {
+  font-weight: 400;
+}
+
+.card-img-container {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 0 auto;
+}
+
+.tech-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10rem 0;
+}
+
+.tech-cards {
+  margin-right: 5rem;
+  gap: 2rem;
+}
+
+.tech-card {
+  gap: 4rem;
+}
+
+.services-text {
+  width: 34rem;
+}
+
+.services-text p {
+  margin-bottom: 1.5rem;
+}
+
+.card-body p {
+  font-size: 0.8rem;
+  line-height: 30px;
+}
+
+.clients {
+  margin-bottom: 5rem;
+}
+
+.pr-0 {
+  padding-right: 0;
+}
+
+.client-container {
+  margin-bottom: 6rem;
+}
+
+footer {
+  margin-bottom: 3rem;
+}
+
+footer p {
+  font-size: 0.8rem;
+  line-height: 1.7rem;
+}
+
+footer svg {
+  cursor: pointer;
+}
+
+footer svg:hover {
+  opacity: 0.7;
+}
+
+.bg-clients {
+  background: linear-gradient(
+    to bottom,
+    white 0%,
+    white 72%,
+    #283345 72%,
+    #283345 100%
+  );
+}
+
+.bg-stock-blue {
+  background: #3871ff;
+}
+
+.btn-stock-blue {
+  background: #3871ff;
+  box-shadow: 0 4px 8px 0 rgb(56, 113, 255, 0.2);
+}
+
+.btn-stock-blue:hover {
+  background: #4b7cf8;
+}
+
+.btn-inf {
+  border-radius: 0;
+  border: 2px solid #535c6a;
+  color: #9399a2;
+  padding: 0.5rem;
+}
+
+.btn-inf-cards {
+  border-radius: 2px;
+  border: 1px solid #b5bbc4;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  color: rgb(146, 144, 144);
+}
+
+.text-tech {
+  color: #9bb8ff;
+}
+
+.text-card-blue {
+  color: #d7e2ff;
+}
+
+.btn-clients-cards {
+  border-radius: 3px;
+  border: 1px solid #b5bbc4;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  color: white;
+}
